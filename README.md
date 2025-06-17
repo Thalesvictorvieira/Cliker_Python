@@ -16,15 +16,28 @@ Um jogo estilo clicker feito em Python usando a biblioteca PySide6.
 
 1. Clone o repositório:
 
-```bash
+bash: (
 git clone https://github.com/seu-usuario/Python_clicker.git
 cd Python_clicker
+)
 
 2. Crie um ambiente virtual (opcional, mas recomendado):
 
-bash(
+bash: (
 
     python -m venv .venv
     source .venv/bin/activate   # Linux
     .venv\Scripts\activate      # Windows
+)
+
+3. instale as dependencias 
+
+bash: (
+pip install -r requirements.txt
+)
+
+4. Execute os jogos
+   
+bash:(
+python Src/logic/main.py
 )
